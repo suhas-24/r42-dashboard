@@ -1,0 +1,213 @@
+{
+    "cardMemberDetails": {
+      "cm15": "1234567890123456",
+      "profileID": "P12345",
+      "groupID": "G1",
+      "customerID": "C1",
+      "acquisitionDate": "2022-01-01",
+      "active": true,
+      "name": "John Doe",
+      "cardType": "Platinum"
+    },
+    "benefits": [
+      {
+        "id": "BEN-001",
+        "description": "American Express Monthly Bonus",
+        "effectiveDate": "2023-01-15",
+        "icon": "🎁",
+        "pointsAwarded": 5000,
+        "termsAndConditions": "Monthly bonus of 5000 points for spending over $1000",
+        "category": "Rewards",
+        "status": "Active"
+      },
+      {
+        "id": "BEN-002",
+        "description": "Travel Insurance",
+        "effectiveDate": "2023-02-01",
+        "icon": "✈️",
+        "coverage": "$500,000",
+        "termsAndConditions": "Comprehensive travel insurance for all trips",
+        "category": "Insurance",
+        "status": "Active"
+      },
+      {
+        "id": "BEN-003",
+        "description": "Cashback Rewards",
+        "effectiveDate": "2023-03-10",
+        "icon": "💰",
+        "cashbackRate": "2%",
+        "termsAndConditions": "2% cashback on all purchases",
+        "category": "Rewards",
+        "status": "Active"
+      }
+    ],
+    "balanceHistory": [
+      {
+        "date": "2023-07-01",
+        "points": 50000,
+        "cashValue": 500
+      },
+      {
+        "date": "2023-08-01",
+        "points": 55000,
+        "cashValue": 550
+      },
+      {
+        "date": "2023-09-01",
+        "points": 60000,
+        "cashValue": 600
+      }
+    ],
+    "redemptionDetails": [
+      {
+        "id": "RED-001",
+        "pointsUsed": 10000,
+        "voucherDescription": "Amazon Gift Card",
+        "date": "2023-05-15",
+        "cashValue": 100,
+        "redemptionChannel": "Mobile App",
+        "status": "Completed",
+        "deliveryMethod": "Email",
+        "recipientEmail": "johndoe@example.com"
+      },
+      {
+        "id": "RED-002",
+        "pointsUsed": 20000,
+        "voucherDescription": "Hotel Discount",
+        "date": "2023-06-20",
+        "cashValue": 200,
+        "redemptionChannel": "Website",
+        "status": "Completed",
+        "deliveryMethod": "Mail",
+        "recipientAddress": "123 Main St, Anytown, USA"
+      },
+      {
+        "id": "RED-003",
+        "pointsUsed": 50000,
+        "voucherDescription": "Flight Upgrade",
+        "date": "2023-07-05",
+        "cashValue": 500,
+        "redemptionChannel": "Customer Service",
+        "status": "Pending",
+        "deliveryMethod": "Email",
+        "recipientEmail": "johndoe@example.com"
+      }
+    ],
+    "partnerDetails": [
+      {
+        "id": "PAR-001",
+        "partner": "Delta Airlines",
+        "pointsTransferred": 25000,
+        "date": "2023-05-01",
+        "status": "success",
+        "icon": "✅",
+        "conversionRate": "1:1",
+        "partnerAccountID": "DL123456",
+        "transactionID": "TRF-987654",
+        "processingTime": "2 minutes"
+      },
+      {
+        "id": "PAR-002",
+        "partner": "Hilton Hotels",
+        "pointsTransferred": 30000,
+        "date": "2023-06-15",
+        "status": "failed",
+        "icon": "❌",
+        "reason": "Insufficient points",
+        "conversionRate": "1:2",
+        "partnerAccountID": "HH789012",
+        "transactionID": "TRF-456789",
+        "processingTime": "1 minute"
+      },
+      {
+        "id": "PAR-003",
+        "partner": "Uber",
+        "pointsTransferred": 20000,
+        "date": "2023-07-10",
+        "status": "success",
+        "icon": "✅",
+        "conversionRate": "1:0.5",
+        "partnerAccountID": "UB345678",
+        "transactionID": "TRF-234567",
+        "processingTime": "3 minutes"
+      }
+    ],
+    "transactionHistory": [
+      {
+        "id": "TRX-001",
+        "amount": 100,
+        "description": "Grocery Shopping at Whole Foods",
+        "pointsEarned": 100,
+        "type": "credit",
+        "date": "2023-07-01",
+        "merchantName": "Whole Foods Market",
+        "merchantCategory": "Grocery Stores",
+        "pointMultiplier": 1,
+        "transactionType": "Purchase",
+        "cardUsed": "Amex Platinum *1234",
+        "location": "New York, NY"
+      },
+      {
+        "id": "TRX-002",
+        "amount": -50,
+        "description": "Refund",
+        "pointsEarned": -50,
+        "type": "debit",
+        "date": "2023-07-02",
+        "merchantName": "Nike Store",
+        "merchantCategory": "Apparel",
+        "pointMultiplier": 1,
+        "transactionType": "Refund",
+        "cardUsed": "Amex Platinum *1234",
+        "location": "Online"
+      },
+      {
+        "id": "TRX-003",
+        "amount": 0,
+        "description": "Points Adjustment",
+        "pointsEarned": 200,
+        "type": "adjustment",
+        "date": "2023-07-03",
+        "adjustmentReason": "Customer Service Goodwill",
+        "adjustmentType": "Manual",
+        "approvedBy": "Agent ID: CS12345"
+      },
+      {
+        "id": "TRX-004",
+        "amount": -1000,
+        "description": "Gift Card Redemption",
+        "pointsEarned": -1000,
+        "type": "redemption",
+        "date": "2023-07-04",
+        "redemptionItem": "Amazon Gift Card",
+        "redemptionValue": "$100",
+        "redemptionChannel": "Mobile App"
+      },
+      {
+        "id": "TRX-005",
+        "amount": 500,
+        "description": "Restaurant",
+        "pointsEarned": 1000,
+        "type": "credit",
+        "date": "2023-07-05",
+        "merchantName": "Le Bernardin",
+        "merchantCategory": "Restaurants",
+        "pointMultiplier": 2,
+        "transactionType": "Purchase",
+        "cardUsed": "Amex Platinum *1234",
+        "location": "New York, NY"
+      }
+    ],
+    "netSpend": {
+      "currentSpend": 2500,
+      "threshold": 3000,
+      "progress": 83
+    },
+    "spendingCategories": [
+      { "name": "Groceries", "value": 500 },
+      { "name": "Dining", "value": 300 },
+      { "name": "Travel", "value": 1000 },
+      { "name": "Entertainment", "value": 200 },
+      { "name": "Other", "value": 500 }
+    ]
+  }

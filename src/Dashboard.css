@@ -40,14 +40,15 @@
   }
   
   .search-bar input {
-    padding: 8px 12px;
+    padding:  1rem;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
     font-size: 14px;
   }
   
   .search-bar button {
-    padding: 8px 16px;
+    padding: 1rem;
     background-color: var(--primary-color);
     color: white;
     border: none;
@@ -401,3 +402,4 @@
   .json-details-modal button:hover {
     background-color: #0056b3;
   }
+
